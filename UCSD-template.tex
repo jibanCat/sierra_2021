@@ -1,0 +1,70 @@
+ \documentclass{beamer}
+%% Possible paper sizes: a0, a0b, a1, a2, a3, a4.
+%% Possible orientations: portrait, landscape
+%% Font sizes can be changed using the scale option.
+\usepackage[size=a4,orientation=landscape,scale=2.5]{beamerposter}
+\usetheme{LLT-poster}
+\usecolortheme{UCSDcolour}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{libertine}
+\usepackage[scaled=1]{inconsolata}
+\usepackage[libertine]{newtxmath}
+
+\usepackage{mwe}
+
+\author[Octocat@ucsd.edu]{Octocat}
+\title{Octocat, San Diego, they/them}
+\institute{UC San Diego}
+% Optional foot image
+\footimage{\includegraphics[width=2cm]{images/The_University_of_California_1868.png}}
+
+\begin{document}
+\begin{frame}[fragile]
+  \begin{columns}[T]
+
+    %%%% First Column
+    \begin{column}{.33\textwidth}
+      
+      % Contact info with a photo
+      \begin{block}{}
+        \begin{center}
+          \includegraphics[width=8cm]{images/Octocat.png}
+        \end{center}
+      \end{block}
+    \end{column}
+
+    %%%% Second Column
+    \begin{column}{.40\textwidth}
+
+      \begin{block}{Bio}
+        you, your science, and whatever other info you would like to include!
+      \end{block}
+    \end{column}
+
+    %%%% Third Column
+    \begin{column}{.20\textwidth}
+      \begin{block}{Subfield}
+        Intergalactic medium, cosmology, Bayesian machine learning.
+      \end{block}
+      \begin{block}{Contac info}    
+        \begin{itemize}
+          \item Web: jibancat.github.io/
+          \item Social media:
+        \end{itemize}
+      \end{block}
+  
+  \end{column}
+
+  \end{columns}
+
+  \begin{block}{Abstract}
+    Abstract of your research, what you are working on.
+
+    Feel free to submit any science you wish to talk. You can even include other non-astronomy subjects you are passionate about.
+  \end{block}
+
+
+\end{frame}
+\end{document}
