@@ -40,7 +40,7 @@ Then we will have the `UCM-template.pdf` generated in the current directory.
 
 ### Compile option 2: Overleaf
 
-Overleaf is a cloud-based LaTex editor. It handle the environment for us. The LaTex environment is installed in their server, so there is not need to install.
+Overleaf is a cloud-based LaTex editor. It handles the environment for us. The LaTex environment is installed on their server, so no need to install anything.
 
 At this **GitHub repo**, click **Code** -> **Download ZIP**.
 
